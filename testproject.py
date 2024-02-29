@@ -60,7 +60,6 @@ with mp_holistic.Holistic(min_detection_confidence = 0.5,min_tracking_confidence
                            cv2.FONT_HERSHEY_SIMPLEX, 1.5, (255, 255, 255), 3, cv2.LINE_AA)
             
             #When the knee angle dips under 70 degrees, the buffer starts recording values
-            #hi
 
             if(angle1<120 or flag):
                 if(overall_count==len(buffer)):
